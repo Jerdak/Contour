@@ -1,0 +1,25 @@
+Description
+-----------
+Contour is a python utility for extracting contour lines and segmenting 
+an image in to layers(bins).
+
+The user may specify the number of layers (or bins) up to a maximum of 9
+using the `layercount` flag.
+
+Requirements
+------------
+- Python 2.7: http://www.python.org/download/releases/2.7/
+- Pillow: http://www.lfd.uci.edu/~gohlke/pythonlibs/#pillow
+
+Python Execution
+----------------
+python contour.py <input_image> <output_image>
+-or-
+python contour.py --layercount 2 <input_image> <output_image>
+
+
+Binary Execution
+----------------
+contour.exe <input_image> <output_image>
+-or-
+contour.exe --layercount 2 <input_image> <output_image>
